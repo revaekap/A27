@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+/*Bagian Header*/
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 0.5px solid grey;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+/*Logo KAI*/
+.logo{
+    height: 55px;
+    width: 95px;
+    margin: 6px 6px;
+}
+.header-left{
+    float: left;
+}
+/*Menu*/
+.header-right{
+    float: right;
+    margin-right: 25px
+}
+.header-right a{
+    color: #000000;
+    padding: 0 25px;
+    line-height: 65px;
+    display: block;
+    float: left;
+}
+.header-right a:hover{
+    color: rgba(242,105,37, 0.568);  
+}
+span .menu-icon {
+    color: black;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
