@@ -1,0 +1,21 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+  }
+/* Penutup CSS Responsive Body Tagline h1 */
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+  }
+/* Penutup CSS Responsive Body Tagline h1 */

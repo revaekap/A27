@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  /* CSS Body Berisi Tagline */
+
+  .top-wrapper {
+    padding: 200px 0 200px 0;
+    background-image: url(bg-body.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    background:rgba(44, 51, 51, 0.4);
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    background:rgba(44, 51, 51, 0.4);
+  }
+
+  /* Penutup CSS Body Berisi Tagline */
+  
