@@ -26,7 +26,7 @@
 
   .top-wrapper {
     padding: 200px 0 200px 0;
-    background-image: url(bg-body.jpg);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/28/480/918/train-blurred-train-station-vehicle-wallpaper-preview.jpg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -34,15 +34,17 @@
   
   .top-wrapper h1 {
     font-size: 45px;
+    font-weight: bold;
     letter-spacing: 5px;
     margin-bottom: 10px;
-    background:rgba(44, 51, 51, 0.4);
+    text-shadow: 3px 2px 1px black;
   }
   
   .top-wrapper p {
+    font-weight: bold;
     margin-bottom: 3px;
     letter-spacing: 1px;
-    background:rgba(44, 51, 51, 0.4);
+    text-shadow: 3px 2px 1px black;
   }
 
   /* Penutup CSS Body Berisi Tagline */
