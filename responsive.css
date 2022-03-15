@@ -1,0 +1,18 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* Css Responsive Bagian kereta */
+  .kereta {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  /* Css Responsive Bagian kereta */
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* Css Responsive Bagian kereta */
+  .kereta {
+    width: 100%;
+  }
+  /* Css Responsive Bagian kereta */
+}

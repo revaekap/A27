@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Css Bagian Awal Konten Jenis Kereta */
+
+.main {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.kereta {
+  float: left;
+  width: 33%;
+}
+
+.tipe-kereta {
+  position: relative;
+}
+
+.tipe-kereta img {
+  width: 342px;
+  height: 227px;
+  border-radius: 20px;
+}
+
+.tipe-kereta p {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+/* Css Bagian Penutup Konten Jenis Kereta */
