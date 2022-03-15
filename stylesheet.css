@@ -1,0 +1,36 @@
+
+footer {
+  
+  background-color:#2E2B72  ;
+  color: #ffff ;
+  height: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+   
+}
+
+footer img {
+    width: 125px;
+  }
+ 
+.footer-logo {
+  float: left;
+  padding:20px;
+}
+
+.footer-list {
+  float: right;
+  padding-right: 20px; 
+}
+
+.footer-list li {
+  list-style: none;
+  padding:5px; 
+  letter-spacing:2px;
+  line-height:30px;
+}
+
+ .footer-list li:hover {
+    color: rgba(242, 105, 37, 0.568);
+ }
+ 
