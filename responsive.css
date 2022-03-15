@@ -1,0 +1,25 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .heading h2 {
+      font-size: 20px;
+    }
+
+    input {
+      width: 100%;
+    }
+
+    .message {
+      font-size: 4vw;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .btn {
+      width: 100%;
+    }
+    
+    input {
+      width: 100%;
+    }
+  }
