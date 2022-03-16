@@ -14,6 +14,23 @@
     margin-bottom: 50px;
   }
   /* Css Responsive Bagian kereta */
+
+  /* css body animasi & subscribe */
+    .heading h2 {
+      font-size: 20px;
+    }
+
+    input {
+      width: 50%;
+    }
+  
+    .btn {
+      width: 50%;
+    }
+  
+    .message {
+      font-size: 4vw;
+    }
   }
   
 /* Untuk Smartphone */
@@ -44,6 +61,10 @@
     }
     /* Css Responsive Bagian kereta */
     }
+
+  /* css body animasi & subscribe */
+      
+
 
   /* Bagian Footer */
     footer {

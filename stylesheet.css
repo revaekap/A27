@@ -26,7 +26,7 @@
 header {
     height: 65px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #FF6600;
     border-bottom: 0.5px solid grey;
     position :fixed;
     top: 0;
@@ -34,8 +34,8 @@ header {
   }
 /*Logo KAI*/
 .logo{
-    height: 55px;
-    width: 95px;
+    height: 50px;
+    width: 85px;
     margin: 6px 6px;
 }
 .header-left{
@@ -47,17 +47,17 @@ header {
     margin-right: 25px
 }
 .header-right a{
-    color: #000000;
+    color: #fff;
     padding: 0 25px;
     line-height: 65px;
     display: block;
     float: left;
 }
 .header-right a:hover{
-    color: rgba(242,105,37, 0.568);  
+    color: #2E2B72;  
 }
 span.menu-icon {
-  color: black;
+  color: white;
   float: right;
   font-size: 26px;
   padding: 21px 0;
@@ -145,6 +145,71 @@ span.menu-icon {
 
 /* Css Bagian Penutup Konten Jenis Kereta */
 
+/* css untuk body bawah bagian atas */
+  .container span{
+      font-weight: normal;
+    }
+  
+  /* css untuk bagian font */
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* css untuk transparan */
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  /* css untuk textbox */
+  input {
+    width: 300px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #051367;
+    cursor: pointer;
+    box-shadow: 0 7px #F06825;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  /* penutup body bawah bagian akhir */
 
 /* CSS Bagian Footer */
 footer {
