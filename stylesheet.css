@@ -1,26 +1,96 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+/*Bagian Header*/
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 0.5px solid grey;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+/*Logo KAI*/
+.logo{
+    height: 55px;
+    width: 95px;
+    margin: 6px 6px;
+}
+.header-left{
+    float: left;
+}
+/*Menu*/
+.header-right{
+    float: right;
+    margin-right: 25px
+}
+.header-right a{
+    color: #000000;
+    padding: 0 25px;
+    line-height: 65px;
+    display: block;
+    float: left;
+}
+.header-right a:hover{
+    color: rgba(242,105,37, 0.568);  
+}
+span.menu-icon {
+  color: black;
+  float: right;
+  font-size: 26px;
+  padding: 21px 0;
+  display: none;
+}
+/* Penutup Header */
+
+/* CSS Body Berisi Tagline */
+
+.top-wrapper {
+  padding: 200px 0 200px 0;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/28/480/918/train-blurred-train-station-vehicle-wallpaper-preview.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
+.top-wrapper h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: 3px 2px 1px black;
 }
 
-a {
-  text-decoration: none;
+.top-wrapper p {
+  font-weight: bold;
+  margin-bottom: 3px;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px 1px black;
 }
 
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+/* Penutup CSS Body Berisi Tagline */
 
 /* Css Bagian Awal Konten Jenis Kereta */
 
